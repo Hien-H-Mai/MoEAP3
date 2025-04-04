@@ -1,4 +1,4 @@
-Source code for the paper: [On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search](https://openreview.net/forum?id=tbJg5QXjuuY)
+Source code for the paper: [On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search](https://openreview.net/forum?id=tbJg5QXjuuY) (GECCO 2025)
 
 
 #### Requirements
