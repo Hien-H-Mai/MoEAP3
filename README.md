@@ -1,10 +1,11 @@
-Source code for the paper: [On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search](https://openreview.net/forum?id=tbJg5QXjuuY) (GECCO 2025)
+# On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search
+Official implementation of **"On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search"**, accepted as poster paper at **GECCO 2025**.
 
 
-#### Requirements
+## Install and setup
 `pip install -r requirements.txt`
 
-#### Quick Start
+## Run experiments
 1. For fine-tuning DeBERTa-v3 on CoLA dataset, run cell in `glue_ft.ipynb`. After fine-tuning, Let's put checkpoint, tokenizer, config files in `cola-deberta-v3-large` folder
 2. For RoBERTa-based experiments, run the scripts via `bash run_roberta.sh [random_seed] [task_name]`.
 3. For GPT2-based experiments, run the scripts via `bash run_gpt.sh [random_seed] [task_name]`.    
@@ -18,6 +19,19 @@ Source code for the paper: [On the Investigation of Evolutionary Multi-Objective
    * `--crossover_prob`: chromosome crossover probability.
 5. For test all individuals in population (for Pareto front), run `test.py`
 
-#### Reference
+## Citation
+
+```bibtex
+@inproceedings{MaiLuongGECCO2025,
+  author       = {Hien H. Mai and Ngoc Hoang Luong},
+  title        = {{On the Investigation of Evolutionary Multi-Objective Optimization for Discrete Prompt Search}},
+  booktitle    = {GECCO '25 Companion: Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+  address      = {Málaga, Spain},
+  publisher    = {{ACM}},
+  year         = {2025}
+}
+```
+
+## Acknowledgements
 This code is inspired by [GAP3](https://www.ijcai.org/proceedings/2023/0588.pdf) and [Pymoo](https://pymoo.org/)
    
